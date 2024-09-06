@@ -1,0 +1,117 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0px;
+    font-size: 1.4vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 10px;
+    font-family: "Fredoka One", sans-serif;
+    width: 16%;
+    border-radius: 10%;
+    text-shadow:
+    1px 1px 0px blue,    /* Bottom-right shadow */
+    -1px 1px 0px blue,   /* Bottom-left shadow */
+    1px -1px 0px blue,  /* Top-right shadow */
+    -1px -1px 0px blue;  /* Top-left shadow */
+}
+
+ul {
+margin: 0px;
+}
+
+body > header {
+    background-color: coral;
+    color: purple;
+    display: flex;
+    height: 12vh;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton{
+color: blueviolet;
+text-decoration: none;
+padding: 12px;
+border: 1px solid cyan;
+border-radius: 10%;
+}
+
+body > main article {
+    width: 80%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#main-content > div {
+   width: 70%; 
+}
+
+form {
+    text-align: center;
+    font-style: initial;
+    color:brown;
+}
+
+h2 {
+   text-align: center; 
+   color: darkblue;
+} 
+
+h4 {
+    margin: 10px;
+    color: salmon;
+}
+
+#filtermon{
+    color: seagreen;
+}
+
+body > footer {
+    background-color: aquamarine;
+    margin: 2%;
+    padding: 10px;
+    font-family: "Fredoka One", sans-serif;
+    font-size: medium;
+    box-shadow: 8px 8px 10px 3px burlywood;
+    width: 50%;
+    display: flex;
+}
+
+img {
+    border-radius: 15%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a{
+    color: brown;
+    text-decoration: none;
+}
