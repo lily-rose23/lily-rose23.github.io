@@ -1,37 +1,76 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: blanchedalmond;
-    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffd6a0;
+    shape-outside: none;
+    margin: 0%;
     font-size: 1.4vw;
 }
 
 #logo {
-    margin: 0px;
-    padding: 10px;
-    font-family: "Fredoka One", sans-serif;
-    width: 16%;
-    border-radius: 10%;
+    margin: 5%;
+    text-align: center;
+    padding: flex;
+    font-size: 2.5vw;
+    font-family: "Sofia" , Arial;
+    color: #a52a2a;
+    width: 25%;
+    box-sizing: content-box;
+    border: groove gold 4px;
     text-shadow:
-    1px 1px 0px blue,    /* Bottom-right shadow */
-    -1px 1px 0px blue,   /* Bottom-left shadow */
-    1px -1px 0px blue,  /* Top-right shadow */
-    -1px -1px 0px blue;  /* Top-left shadow */
+    1px 1px 0px rgb(255, 255, 255),    /* Bottom-right shadow */
+    -1px 1px 0px rgb(255, 255, 255),   /* Bottom-left shadow */
+    1px -1px 0px rgb(255, 255, 255),  /* Top-right shadow */
+    -1px -1px 0px rgb(255, 255, 255);  /* Top-left shadow */
 }
+ 
 
 ul {
-margin: 0px;
+margin: 10px;
 }
 
+#Intro {
+    color:darkgreen;
+    font-family: tahoma;
+    margin: 5px;
+    margin-left: -5%;
+    font-size: 20px;
+    background-color: #ffd6a0;
+    border: 5px ridge #ffa06f;
+    padding: 25px;
+    width: flex;
+}
+
+
+h3 {
+    font-variant: small-caps;
+    color: darkolivegreen;
+}
+
+#main-content > div {
+    color:navy;
+    font-family: cursive;
+    display: flexbox;
+    font-style: initial;
+    font-size: 0.9vw;
+    justify-content: space-around;
+    width: flex; 
+ }
+
+
 body > header {
-    background-color: coral;
-    color: purple;
+    background-color: #ffa06f;
+    font-family: 'Lucida Sans';
+    color: rgb(231, 53, 9);
     display: flex;
+    border-block-end: 110px;
     height: 12vh;
+    width: flex;
     align-items: center; 
     justify-content: space-between;
 }
 
 #nav-ul {
+    margin: flex;
     display: flex;
 }
 
@@ -46,38 +85,66 @@ body > header > nav > ul {
 }
 
 .navbutton{
-color: blueviolet;
+color: maroon;
 text-decoration: none;
 padding: 12px;
-border: 1px solid cyan;
+border: 2px solid gold;
 border-radius: 10%;
 }
 
 body > main article {
     width: 80%;
     margin: auto;
+    grid-area: article;
 }
 
-#main-content {
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-#main-content > div {
-   width: 70%; 
+#Sign-up {
+    background-color: #acbd86;
+    color: brown;
+    font-family: sans-serif;
+    margin-bottom: 0%;
+    border: none;
+    width: flex;
+    padding-top: 1vh;
+    text-decoration: underline;
 }
 
 form {
     text-align: center;
     font-style: initial;
-    color:brown;
+    color: maroon;
+    background-color: #acbd86;
+    margin-bottom: 0%;
+    width: flex;
+    font-size: 15px;
+    padding-top: 2vh;
+    font-size: 1vw;
+}
+
+input {
+    box-sizing: content-box;
+    align-self: normal;
 }
 
 h2 {
    text-align: center; 
-   color: darkblue;
-} 
+   color: purple;
+   background-color: burlywood;
+   padding: auto;
+   border: 2px double #ffa06f;
+   margin-left: -5%;
+}
+
+#quick {
+    border: 2px double #ffa06f;
+    background-color:burlywood;
+    margin-left: center;
+    color: #d2691e;
+}
+
+h2 > footer {
+    background-color: #a52a2a;
+}
 
 h4 {
     margin: 10px;
@@ -85,22 +152,46 @@ h4 {
 }
 
 #filtermon{
-    color: seagreen;
+    color: black;
 }
 
 body > footer {
-    background-color: aquamarine;
-    margin: 2%;
+    background-color: #28544b;
+    margin: 0%;
+    
     padding: 10px;
-    font-family: "Fredoka One", sans-serif;
-    font-size: medium;
-    box-shadow: 8px 8px 10px 3px burlywood;
-    width: 50%;
-    display: flex;
+    font-family: Calibri;
+    font-size: 20px;
+    box-shadow: 10px 8px 10px 3px #28544b;
+    width: flex;
+    margin-top: -1%;
+    display: flex;   
+    grid-area: footer;
+    
+}
+
+#footh {
+    border: groove gold 4px;
+    padding: 10px;
+    text-align: center;
+    font-size: 3.6vh;
+    font-family: "Sofia" , Arial;
+    color: #a52a2a;
+    width: 25%;
+    margin-left: 5%;
+    border-radius: -10%;
+    background-color: #ffa06f;
+    text-shadow:
+        1px 1px 0px rgb(255, 255, 255),    /* Bottom-right shadow */
+        -1px 1px 0px rgb(255, 255, 255),   /* Bottom-left shadow */
+        1px -1px 0px rgb(255, 255, 255),  /* Top-right shadow */
+        -1px -1px 0px rgb(255, 255, 255);  /* Top-left shadow */
 }
 
 img {
-    border-radius: 15%;
+    border-radius: 50%;
+    margin: 5px;
+    width: 15vw;
 }
 
 #footer-ul {
@@ -109,9 +200,78 @@ img {
 }
 #footer-ul > div > li {
     margin-left: 12px;
+    
 }
 
 #footer-ul > div > li > a{
-    color: brown;
+    color: skyblue;
     text-decoration: none;
+    
+}
+
+aside {
+    grid-area: aside;
+    border: 5px ridge #ffa06f;
+    margin-left: 1vw;
+    margin-bottom: auto;
+    padding: 22px;
+    margin-top: 5px;
+    font-family: tahoma;
+}
+
+#heada {
+    padding: 0%;
+    margin-top: 10%;
+    margin-left: -5%;
+    margin-right: -4%;
+}
+
+#author {
+    grid-area: author;
+}
+
+#grid-container {
+display: grid;
+grid-template-areas:
+'aside article'
+'author author'
+'footer footer';
+grid-template-columns: 1fr 12fr;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: flex;
+    grid-template-rows: flex;
+    grid-template-areas: 
+    'div div div div';
+    gap: 50px; /* space between item */
+    margin-left: -45px;
+    row-gap: flex;
+    column-gap: 2vw;
+    text-align: left;
+    
+}
+
+.item {
+    border: solid peru 3px ;
+    padding: 3px;
+    height: 100%;
+    width: flex;
+    border-radius: 5%;
+}
+
+a {
+    color: navy;
+    text-decoration: none;
+}
+
+#last {
+    color: slateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: normal;
+}
+
+hr {
+    border: none;
 }
